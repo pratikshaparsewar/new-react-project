@@ -1,0 +1,29 @@
+ constructor(props) {
+        super(props);
+        this.state = { sample:false,showWarning: false }
+        this.prathikshaHnadler = this.prathikshaHnadler.bind(this);
+    }
+
+    prathikshaHnadler() {
+        // this.setState({showWarning : this.state.showWarning});
+        this.setState(currentState => ({
+            showWarning: currentState.showWarning
+        }));
+    }
+
+        function(old){
+            console.log(old);
+        }
+
+
+
+        function WarningBanner(props) {
+    if (props.text == true) {
+        return ( <div >
+            <input type = "text" name = "FirstName" value = "Mickey" placeholder = "Mickey" />
+            </div>);
+    } 
+    else {
+        return null;
+    }
+}

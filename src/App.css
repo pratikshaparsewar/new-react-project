@@ -1,0 +1,361 @@
+        .App {
+            text-align: center;
+        }
+
+        .App-logo {
+            animation: App-logo-spin infinite 20s linear;
+            height: 80px;
+        }
+
+        .person {
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid #eee;
+            box-shadow: 0 2px 2px #ccc;
+            width: 200px;
+            padding: 20px;
+        }
+
+        .App-header {
+            background-color: #222;
+            height: 150px;
+            padding: 20px;
+            color: white;
+        }
+
+        .App-title {
+            font-size: 1.5em;
+        }
+
+        .App-intro {
+            font-size: large;
+        }
+
+        @keyframes App-logo-spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .parent {
+            margin: 30px;
+        }
+
+        @-webkit-keyframes placeHolderShimmer {
+            0% {
+                background-position: -468px 0;
+            }
+            100% {
+                background-position: 468px 0;
+            }
+        }
+
+        .icon {
+            background-repeat: no-repeat;
+            position: relative;
+            display: inline-block;
+        }
+
+        .icon.like {
+            bottom: 2px;
+            background-size: 64px 391px;
+            background-position: 79px -39px;
+            height: 15px;
+            width: 13px;
+        }
+
+        .icon.downArrow {
+            bottom: 2px;
+            background-size: 64px 391px;
+            background-position: -27px -317px;
+            height: 20px;
+            width: 20px;
+        }
+
+        .icon.downArrow:hover {
+            background-position: -2px -318px;
+            cursor: pointer;
+        }
+
+        .icon.comment {
+            bottom: 2px;
+            background-size: 64px 391px;
+            background-position: 79px -55px;
+            width: 12px;
+            height: 15px;
+        }
+
+        .icon.camera {
+            background-size: 54px 23px;
+            background-position: -6px -5px;
+            display: block;
+            height: 12px;
+            margin: 6px 8px;
+            width: 16px;
+            opacity: 0.6;
+        }
+
+        .icon.camera:hover {
+            opacity: 1;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        html,
+        body {
+            background: #e9eaed;
+            padding: 12px;
+            font-family: Helvetica, Arial, "lucida grande", tahoma, verdana, arial, sans-serif;
+        }
+
+        .important {
+            font-weight: bold;
+        }
+
+        .container {
+            width: 516px;
+            margin: auto;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .container .post {
+            border: 1px solid;
+            border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+            -webkit-border-radius: 3px;
+            font-size: 12px;
+            line-height: 1.38;
+            vertical-align: middle;
+            padding: 12px;
+            background: #fff;
+            margin-bottom: 12px;
+        }
+
+        .container .post a {
+            text-decoration: none;
+        }
+
+        .container .post a:hover {
+            text-decoration: underline;
+        }
+
+        .container .post .topNotif {
+            padding-bottom: 9px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid #e5e5e5;
+            color: #9197a3;
+        }
+
+        .container .post .content {
+            padding-bottom: 9px;
+            margin-bottom: 12px;
+        }
+
+        .container .post .content .head {
+            height: 40px;
+            margin-bottom: 11px;
+        }
+
+        .container .post .content .head .profPic {
+            float: left;
+            width: 40px;
+            height: 40px;
+            display: block;
+        }
+
+        .container .post .content .head .topic {
+            margin-top: 2px;
+            margin-left: 12px;
+            float: left;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .post .content .head .topic .name {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .post .content .head .postMenu {
+            display: block;
+            float: right;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        .container .post .content .head .postMenu .icon {
+            vertical-align: top;
+            right: -4px;
+        }
+
+        .post .content .body .postContent p {
+            font-size: 14px;
+            margin: 6px 0;
+        }
+
+        .post .content .body .postActions {
+            margin-top: 10px;
+        }
+
+        .post .bottom {
+            background: #f6f7f8;
+            margin: -12px;
+            margin-top: 0px;
+            padding: 12px;
+            border-top: 1px solid #e5e5e5;
+            padding-top: 0px;
+        }
+
+        .post .bottom .info {
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 7px;
+            padding-top: 9px;
+        }
+
+        .post .bottom .info .icon {
+            margin-right: 6px;
+            vertical-align: bottom;
+        }
+
+        .bottom .comments .commentHelper {
+            padding-bottom: 7px;
+            padding-top: 9px;
+        }
+
+        .post .bottom .comments .commentHelper .icon {
+            margin-right: 6px;
+            vertical-align: bottom;
+        }
+
+        .post .bottom .comments ul.commentList li {
+            margin-top: 6px;
+        }
+
+        .post .bottom .comments ul.commentList li .profPic {
+            float: left;
+            width: 32px;
+            height: 32px;
+            display: block;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .commentBody,
+        body .container .post .bottom .comments ul.commentList li .commentBody {
+            margin-top: 0px;
+            margin-left: 6px;
+            float: left;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .commentBody .message .from,
+        body .container .post .bottom .comments ul.commentList li .commentBody .message .from {
+            font-size: 12px;
+            font-weight: bold;
+            display: inline;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .commentBody .message .with,
+        body .container .post .bottom .comments ul.commentList li .commentBody .message .with {
+            display: inline;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .messageData,
+        body .container .post .bottom .comments ul.commentList li .messageData {
+            margin-top: 2px;
+            vertical-align: top;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .messageData a,
+        body .container .post .bottom .comments ul.commentList li .messageData a {
+            vertical-align: top;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .messageData .likes,
+        body .container .post .bottom .comments ul.commentList li .messageData .likes {
+            vertical-align: top;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .messageData .likes .icon,
+        body .container .post .bottom .comments ul.commentList li .messageData .likes .icon {
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+
+        html .container .post .bottom .comments ul.commentList li .commentActions,
+        body .container .post .bottom .comments ul.commentList li .commentActions {
+            text-align: right;
+            display: none;
+        }
+
+        html .container .post .bottom .comments ul.commentList li:hover .commentActions,
+        body .container .post .bottom .comments ul.commentList li:hover .commentActions {
+            display: block;
+        }
+
+        html .container .post .bottom .comments ul.commentList .addComment,
+        body .container .post .bottom .comments ul.commentList .addComment {
+            margin-top: 6px;
+        }
+
+        html .container .post .bottom .comments ul.commentList .addComment .profPic,
+        body .container .post .bottom .comments ul.commentList .addComment .profPic {
+            float: left;
+            width: 32px;
+            height: 32px;
+            display: block;
+        }
+
+        html .container .post .bottom .comments ul.commentList .addComment .input,
+        body .container .post .bottom .comments ul.commentList .addComment .input {
+            position: relative;
+            margin-top: 0px;
+            margin-left: 6px;
+            float: left;
+            display: inline-block;
+            vertical-align: top;
+            width: 448px;
+            height: 30px;
+            overflow: hidden;
+            border: 1px solid #dadce0;
+        }
+
+        html .container .post .bottom .comments ul.commentList .addComment .input textarea,
+        body .container .post .bottom .comments ul.commentList .addComment .input textarea {
+            width: 100%;
+            margin-right: 40px;
+            display: inline-block;
+            border: none;
+            vertical-align: top;
+            color: #9197a3;
+            padding: 3px;
+            padding-bottom: 7px;
+            padding-top: 8px;
+            min-height: 30px;
+            outline: none;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0;
+            font-family: "Lucida Grande";
+            text-indent: 6px;
+        }
+
+        html .container .post .bottom .comments ul.commentList .addComment .input textarea:focus,
+        body .container .post .bottom .comments ul.commentList .addComment .input textarea:focus {
+            outline: none;
+        }
+
+        html .container .post .bottom .comments ul.commentList .addComment .input .camera,
+        body .container .post .bottom .comments ul.commentList .addComment .input .camera {
+            position: absolute;
+            right: 2px;
+            top: 3px;
+        }
+
+        html .container .post.placeholder,
+        body .container .post.placeholder {
+            height: 300px;
+        }

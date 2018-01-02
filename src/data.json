@@ -1,0 +1,28 @@
+[{
+        "likes": 1,
+        "text": "awesome food",
+        "userObj": {
+            "firstName": "Kishore ",
+            "lastName": " Kumar",
+            "image": "https://plus.google.com/u/0/_/focus/photos/private/AIbEiAIAAABDCMK1-M7YxdGLeSILdmNhcmRfcGhvdG8qKDg4NDEwZWEyOGVmNzljMmFlNjRjODM4YmU4YzJlN2IxOTk3ZTZmOTIwARlyTF1r8i1WB1XmtXJ0D-QQ4Kqp?sz=32"
+        },
+        "liked": true
+    }, {
+        "likes": 2,
+        "text": "super food",
+        "userObj": {
+            "firstName": "Mohit",
+            "lastName": " Paryani",
+            "image": "https://plus.google.com/u/0/_/focus/photos/private/AIbEiAIAAABDCJ3KwNifruKWdCILdmNhcmRfcGhvdG8qKDczNmVlZmM5NTdmNGNjNDFhZDMzYmFjODIwZDNjZDU5YmQwZmFjOTUwAYY0YQAyWRyWdLD1vACcDv5cPLiN?sz=48"
+        }
+    },
+    {
+        "likes": 3,
+        "text": "good food",
+        "userObj": {
+            "firstName": "pratiksha",
+            "lastName": " parsewar",
+            "image": "https://plus.google.com/u/0/_/focus/photos/private/AIbEiAIAAABDCLjjm5Opq7jXIyILdmNhcmRfcGhvdG8qKDQ5ZmEyYzQxYTk4YmYwMTUwZWY3NTc3YmFjMWEzY2YxZWNkMTM2ZjYwAXIelCC5ZS4XHVe0ZqlPIRG2eQjk?sz=32"
+        }
+    }
+]
